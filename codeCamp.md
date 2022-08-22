@@ -240,3 +240,33 @@ We can use the += operator to concatenate a string
 ```js
 const ourStr = "Hello, our name is " + ourName + ", how are you?";
 ```
+
+```js
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+```
+
+## Find the Length of a String
+
+You can find the length of a String value by writing .length after the string variable or string literal.
+
+```js
+console.log("Alan Peter".length);
+```
+
+## Use Bracket Notation to Find the First Character in a String
+
+avaScript, don't start counting at 1. They start at 0.
+
+```js
+const firstName = "Charles";
+const firstLetter = firstName[0];
+```
+
+firstLetter would have a value of the string C.
+
+```js
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
+```
