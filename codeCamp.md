@@ -270,3 +270,13 @@ firstLetter would have a value of the string C.
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 ```
+
+## Store Multiple Values in one Variable using JavaScript Arrays
+
+With JavaScript array variables, we can store several pieces of data in one place.
+
+```js
+const sandwich = ["peanut butter", "jelly", "bread"];
+```
+
+## Manipulate Arrays With push()
