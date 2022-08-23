@@ -316,8 +316,38 @@ function functionName() {
 
 ## Passing Values to Functions with Arguments
 
-```
+```js
 function testFun(param1, param2) {
-console.log(param1, param2);
+  console.log(param1, param2);
 }
+```
+
+## Return a Value from a Function with Return
+
+```js
+function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);
+```
+
+## Global Scope and Functions
+
+Variables which are defined outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.
+
+Variables which are declared without the let or const keywords are automatically created in the global scope
+
+### Local Scope and Functions
+
+That means they are only visible within that function.
+
+```js
+function myTest() {
+  const loc = "foo";
+  console.log(loc);
+}
+
+myTest();
+console.log(loc);
 ```
