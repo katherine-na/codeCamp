@@ -280,3 +280,44 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 ```
 
 ## Manipulate Arrays With push()
+
+### .push()
+
+Takes one or more parameters and "pushes" them onto the end of the array.
+
+### Example
+
+```js
+const arr1 = [1, 2, 3];
+arr1.push(4);
+```
+
+### .pop()
+
+Is used to pop a value off of the end of an array.
+
+### .shift()
+
+It works just like .pop(), except it removes the first element instead of the last.
+
+### unshift
+
+Adds the element at the beginning of the array.
+
+## Functions
+
+You can call or invoke this function by using its name followed by parentheses, like this: functionName(); Each time the function is called it will print out the message Hello World on the dev console. All of the code between the curly braces will be executed every time the function is called.
+
+```js
+function functionName() {
+  console.log("Hello World");
+}
+```
+
+## Passing Values to Functions with Arguments
+
+```
+function testFun(param1, param2) {
+console.log(param1, param2);
+}
+```
