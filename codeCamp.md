@@ -351,3 +351,109 @@ function myTest() {
 myTest();
 console.log(loc);
 ```
+
+## Use Conditional Logic with If Statements
+
+When the condition evaluates to true, the program executes the statement inside the curly braces. When the Boolean condition evaluates to false, the statement inside the curly braces will not execute.
+
+```js
+if (condition is true) {
+  statement is executed
+}
+```
+
+## Comparison with the Inequality Operator
+
+### !=
+
+The inequality operator (!=) is the opposite of the equality operator. It means not equal and returns false where equality would return true and vice versa.
+
+```
+1 !=  2    // true
+1 != "1"   // false
+1 != '1'   // false
+1 != true  // false
+0 != false // false
+```
+
+### !==
+
+It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa.
+
+```
+3 !== 3; // false
+3 !== "3"; // true
+4 !== 3; // true
+```
+
+## > < (greater than or less than)
+
+The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns true. Otherwise, it returns false.
+
+```js
+5 > 3; // true
+7 > "3"; // true
+2 > 3; // false
+"1" > 9; // false
+```
+
+## >= (greater than or equal than)
+
+The greater than or equal to operator (>=) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns true. Otherwise, it returns false.
+
+## && (and)
+
+```
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
+```
+
+## || (or)
+
+If either of the operands is true. Otherwise, it returns false.
+
+## Switch Statements
+
+A switch statement tests a value and can have many case statements which define various possible values. Statements are executed from the first matched case value until a break is encountered.
+
+```js
+switch (lowercaseLetter) {
+  case "a":
+    console.log("A");
+    break;
+  case "b":
+    console.log("B");
+    break;
+}
+```
+
+## Build JavaScript Objects
+
+Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
+
+```js
+const cat = {
+  name: "Whiskers",
+  legs: 4,
+  tails: 1,
+  enemies: ["Water", "Dogs"],
+};
+```
+
+## Accessing Object Properties with Dot Notation
+
+There are two ways to access the properties of an object: dot notation (.) and bracket notation ([]), similar to an array.
+
+### Ejemplo
+
+```js
+const myObj = {
+  prop1: "val1",
+  prop2: "val2",
+};
+
+const prop1val = myObj.prop1;
+const prop2val = myObj.prop2;
+```
