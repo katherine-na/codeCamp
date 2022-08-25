@@ -457,3 +457,53 @@ const myObj = {
 const prop1val = myObj.prop1;
 const prop2val = myObj.prop2;
 ```
+
+## Updating Object Properties
+
+Here's how we update his object's name property: ourDog.name = "Happy Camper"; or ourDog["name"] = "Happy Camper"; Now when we evaluate ourDog.name, instead of getting Camper, we'll get his new name, Happy Camper.
+
+```js
+const myDog = {
+  name: "Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+
+myDog.name = ["Happy Coder"];
+```
+
+## Add New Properties to a JavaScript Object
+
+You can add new properties to existing JavaScript objects the same way you would modify them.
+
+### Example
+
+```js
+const ourDog = {
+  name: "Camper",
+  legs: 4,
+  tails: 1,
+  friends: ["everything!"],
+};
+
+ourDog.bark = "bow-wow";
+```
+
+## We can also delete properties from objects like this:
+
+We can also delete properties from objects like this:
+
+```js
+const ourDog = {
+  name: "Camper",
+  legs: 4,
+  tails: 1,
+  friends: ["everything!"],
+  bark: "bow-wow",
+};
+
+delete ourDog.bark;
+```
+
+## Using Objects for Lookups
