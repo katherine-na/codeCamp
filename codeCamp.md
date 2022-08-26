@@ -506,4 +506,46 @@ const ourDog = {
 delete ourDog.bark;
 ```
 
-## Using Objects for Lookups
+## Accessing Nested Arrays
+
+```js
+const ourPets = [
+  {
+    animalType: "cat",
+    names: ["Meowzer", "Fluffy", "Kit-Cat"],
+  },
+  {
+    animalType: "dog",
+    names: ["Spot", "Bowser", "Frankie"],
+  },
+];
+
+ourPets[0].names[1];
+ourPets[1].names[0];
+```
+
+## Iterate with JavaScript While Loops
+
+You can run the same code multiple times by using a loop.
+
+### while
+
+```js
+const ourArray = [];
+let i = 0;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+```
+
+### for
+
+```js
+const ourArray = [];
+
+for (let i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+```
