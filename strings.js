@@ -17,7 +17,7 @@ Do it
 
 // Concatenating string use +
 
-let greetings = "Hello" + "Have a nice day!";
+let greetings = "Hello " + "Have a nice day!";
 
 const anAdjective = "Awesome!";
 let string = "freeCodeCamp is";

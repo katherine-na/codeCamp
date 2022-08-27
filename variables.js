@@ -5,12 +5,16 @@ with Strings */
 var liveIn;
 liveIn = "Mexico";
 
+var liveIn = "Cancun";
+
 // let
 let myName;
 myName = "Kathy";
 
 let myFavoriteAnimal;
 myFavoriteAnimal = "All animals";
+
+let  = ["This is a array"]
 
 // const
 const myId = "NEAK010331";
