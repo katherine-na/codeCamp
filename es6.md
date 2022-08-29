@@ -60,6 +60,50 @@ The default parameter kicks in when the argument is not specified (it is undefin
 const greeting = (name = "Anonymous") => "Hello " + name;
 ```
 
-## Use the Rest Parameter with Function Parameters
+## Use the Spread Operator to Evaluate Arrays In-Place
 
 With the rest parameter, you can create functions that take a variable number of arguments
+
+```js
+const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
+let arr2;
+
+arr2 = [...arr1];
+```
+
+## Use Destructuring Assignment to Extract Values from Objects
+
+Here's an equivalent assignment statement using the ES6 destructuring syntax:
+
+```js
+const { name, age } = user;
+```
+
+```js
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80,
+};
+const { today, tomorrow } = HIGH_TEMPERATURES;
+```
+
+## Use Destructuring Assignment to Assign Variables from Objects
+
+Here's how you can give new variable names in the assignment:
+
+```js
+const { name: userName, age: userAge } = user;
+```
+
+```js
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80,
+};
+
+const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
+```
+
+## Use Destructuring Assignment to Assign Variables from Nested Objects
