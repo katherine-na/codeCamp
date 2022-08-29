@@ -107,3 +107,60 @@ const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
 ```
 
 ## Use Destructuring Assignment to Assign Variables from Nested Objects
+
+```js
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 },
+};
+
+const {
+  today: { low: lowToday, high: highToday },
+} = LOCAL_FORECAST;
+```
+
+## Use Destructuring Assignment to Assign Variables from Arrays
+
+```js
+let a = 8,
+  b = 6;
+
+[a, b] = [b, a];
+```
+
+## Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements
+
+```js
+const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+console.log(a, b);
+console.log(arr);
+```
+
+## Object Property Shorthand
+
+```js
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y,
+});
+```
+
+Here is the same function from above rewritten to use this new syntax:
+
+```js
+const getMousePosition = (x, y) => ({ x, y });
+```
+
+```js
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+  return {
+    name,
+    age,
+    gender,
+  };
+};
+```
+
+## Use class Syntax to Define a Constructor Function
