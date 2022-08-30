@@ -1,3 +1,7 @@
+// Function syntax
+
+function nameFunction() {}
+
 // Function strings
 
 function functionName() {

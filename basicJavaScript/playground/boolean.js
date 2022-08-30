@@ -41,9 +41,29 @@ function equalityTest(myVal) {
 3 <= 2; // false
 "8" <= 4; // false
 
-// and &&
+// Examples
 
-if (num > 5 && num < 10) {
-  return "Yes";
+let myNum = 5;
+if (myNum == 5) {
+  console.log("It is equal");
 }
-return "No";
+
+if (7 > 5) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+// Example
+
+let myAge = 29;
+
+if (myAge > 30) {
+  console.log("You are over 30!");
+} else if (myAge > 20) {
+  console.log("You are over 20!");
+} else if (myAge > 10) {
+  console.log("You are over 10!");
+} else {
+  console.log("You are not over 10!");
+}
