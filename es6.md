@@ -164,3 +164,55 @@ const createPerson = (name, age, gender) => {
 ```
 
 ## Use class Syntax to Define a Constructor Function
+
+## Use export to Share a Code Block
+
+When you export a variable or function, you can import it in another file and use it without having to rewrite the code.
+
+```js
+export const add = (x, y) => {
+  return x + y;
+};
+```
+
+```js
+const add = (x, y) => {
+  return x + y;
+};
+
+export { add };
+```
+
+## Reuse JavaScript Code Using import
+
+```js
+import { add } from "./math_functions.js";
+```
+
+## Create an Export Fallback with export default
+
+```js
+export default function add(x, y) {
+  return x + y;
+}
+```
+
+## Create a JavaScript Promise
+
+```js
+const myPromise = new Promise((resolve, reject) => {});
+```
+
+### Complete a Promise with resolve and reject
+
+A promise has three states: pending, fulfilled, and rejected.
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+  if(condition here) {
+    resolve("Promise was fulfilled");
+  } else {
+    reject("Promise was rejected");
+  }
+});
+```
