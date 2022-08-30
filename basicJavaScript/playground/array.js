@@ -24,5 +24,31 @@ const ourPets = [
   },
 ];
 
-ourPets[0].names[1];
-ourPets[1].names[0];
+console.log(ourPets[0].names[1]);
+console.log(ourPets[1].names[0]);
+
+// Spread Operator
+
+const fruits = ["Apple", "Orange", "Banana", "Grapes", "Peach"];
+const vegetables = ["Avocado", "Carrot", "potato", "pumpkin"];
+
+const healthyFood = [...fruits, ...vegetables];
+
+console.log(healthyFood);
+
+// Mutate an Array Declared with const
+
+const s = [5, 6, 7];
+s[2] = 45;
+console.log(s);
+
+//
+
+const a = ["Katherine", "Marilyn", "Ravi"];
+a[2] = "Liz";
+console.log(a);
+
+const cats = ["Kevin", "Timon"];
+cats.push("Mishuga");
+cats.unshift("Misha");
+console.log(cats);
