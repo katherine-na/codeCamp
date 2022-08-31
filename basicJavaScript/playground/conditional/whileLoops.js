@@ -4,8 +4,18 @@ while (age < 10) {
   age++;
 }
 
-// other form
+// other example
 
 for (hour = 5; hour < 10; hour++) {
   console.log("The hour is " + hour);
 }
+
+// break
+
+for (a = 1; a < 10; a++) {
+  console.log(a);
+  if (a === 7) {
+    break;
+  }
+}
+console.log("Rompi el loop");
