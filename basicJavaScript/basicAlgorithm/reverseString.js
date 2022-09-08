@@ -4,4 +4,12 @@ function reverseString(str) {
   return str.split("").reverse().join("");
 }
 
-reverseString("hello");
+console.log(reverseString("hello"));
+
+// Split String
+
+function splitStr(str) {
+  return str.split("");
+}
+
+console.log(splitStr("Hello"));
