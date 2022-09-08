@@ -6,3 +6,11 @@ function convertCtoF(celsius) {
 }
 
 convertCtoF(30);
+
+// convert gr to kg
+
+function convertGrToKg(gr) {
+  let kilos = gr * (0.001 / 1);
+  return "Es igual a " + kilos + "kg";
+}
+console.log(convertGrToKg(2000));
