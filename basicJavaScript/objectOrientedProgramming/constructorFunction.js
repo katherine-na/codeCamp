@@ -4,4 +4,4 @@ function Bird() {
   this.numLegs = 2;
 }
 
-console.log(Bird);
+console.log(Bird());

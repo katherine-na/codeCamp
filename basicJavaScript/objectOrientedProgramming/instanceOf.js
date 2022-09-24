@@ -6,3 +6,5 @@ let Dog = function (name, color) {
 let Cat = new Dog("Marrandi", "black");
 
 Cat instanceof Dog;
+
+console.log(Dog);

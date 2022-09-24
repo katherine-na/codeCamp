@@ -15,6 +15,7 @@ const add = (arr, bookName) => {
   newArr.push(bookName); // Add bookName parameter to the end of the new array.
   return newArr; // Return the new array.
 };
+console.log(add("La sirenita"));
 
 /* This function should remove a book from the list and return the list */
 // New parameters should come before the bookName one
