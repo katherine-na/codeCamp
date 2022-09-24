@@ -1,5 +1,3 @@
-Dog.prototype.numLegs = 4; // prototype property
-
 function Bird(name) {
   this.name = name; //own property
 }
